@@ -3,16 +3,5 @@ defmodule HipcallSdk do
   Documentation for `HipcallSdk`.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> HipcallSdk.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
+  alias HipcallSdk.Config
 end
