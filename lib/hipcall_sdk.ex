@@ -3,5 +3,5 @@ defmodule HipcallSdk do
   Documentation for `HipcallSdk`.
   """
 
-  alias HipcallSdk.Config
+  # alias HipcallSdk.Config
 end
