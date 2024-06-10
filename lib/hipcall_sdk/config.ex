@@ -4,10 +4,8 @@ defmodule HipcallSdk.Config do
   defstruct api_key: nil,
             api_url: nil
 
-  @api_url "https://use.hipcall.com/api/v3/"
-
   @spec api_url() :: any()
-  def api_url, do: get_config_value(:api_url, @api_url)
+  def api_url, do: get_config_value(:api_url, System.get_env("api_url"))
 
   @spec api_key() :: any()
   def api_key, do: get_config_value(:api_key, System.get_env("api_key"))

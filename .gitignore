@@ -27,3 +27,4 @@ hipcall_sdk-*.tar
 
 # elixir_ls
 /.elixir_ls/
+.iex.exs

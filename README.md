@@ -27,7 +27,8 @@ api_key you can simply do:
 
 ```elixir
 config_override = %HipcallSdk.Config{
-  api_key: "mTRwVrbZ4aoHTyjMepleT3BlbkFJ7zZYazuN7F16XuY3WErl"
+  api_key: "mTRwVrbZ4aoHTyjMepleT3BlbkFJ7zZYazuN7F16XuY3WErl",
+  api_url: "https://use.hipcall.com.tr/api/v3"
 }
 # pass the overriden configuration as last argument of the function
 HipcallSdk.models(config_override)
