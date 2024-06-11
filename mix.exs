@@ -50,7 +50,7 @@ defmodule HipcallSdk.MixProject do
   def docs do
     [
       main: "readme",
-      name: "HipcallOpenai",
+      name: "HipcallSdk",
       canonical: "https://hex.pm/packages/elixir_sdk",
       source_ref: "v#{@version}",
       source_url: @source_url,

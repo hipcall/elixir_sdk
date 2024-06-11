@@ -40,6 +40,7 @@ Documentation for using, please check the `HipcallSdk` module.
 
 ## Roadmap
 
+- [ ] Task
 - [ ] Phone system - call
 - [ ] Phone system - extensions
 - [ ] Phone system - greetings
@@ -49,7 +50,6 @@ Documentation for using, please check the `HipcallSdk` module.
 - [ ] Phone system - voicemails
 - [ ] Contact centre
 - [ ] Sales 
-- [ ] Task
 - [ ] Account
 
 ## Hipcall
