@@ -4,13 +4,10 @@ Official Hipcall API Wrapper written in Elixir.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `hipcall_sdk` to your list of dependencies in `mix.exs`:
-
 ```elixir
 def deps do
   [
-    {:hipcall_sdk, "~> 0.1.0"}
+    {:hipcall_sdk, "~> 0.5.1"}
   ]
 end
 ```
@@ -40,7 +37,7 @@ Documentation for using, please check the `HipcallSdk` module.
 
 ## Roadmap
 
-- [ ] Task
+- [x] Task
 - [ ] Phone system - call
 - [ ] Phone system - extensions
 - [ ] Phone system - greetings
